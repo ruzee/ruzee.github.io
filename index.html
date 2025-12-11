@@ -31,7 +31,7 @@
         header {
             background: linear-gradient(135deg, #1a6fc4, #0d4d8d);
             color: white;
-            padding: 40px;
+            padding: 15px;
             text-align: center;
         }
         
@@ -50,7 +50,7 @@
         }
         
         h1 {
-            font-size: 32px;
+            font-size: 25px;
             margin-bottom: 10px;
             font-weight: 600;
         }
@@ -71,7 +71,7 @@
             display: flex;
             justify-content: center;
             gap: 20px;
-            margin-top: 20px;
+            margin-top: 5px;
             flex-wrap: wrap;
         }
         
@@ -187,13 +187,13 @@
         .profile-links {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
+            gap: 30px;
+            margin-top: 10px;
             flex-wrap: wrap;
         }
         
         .profile-link {
-            color: #1a6fc4;
+            color: #aaefc4;
             text-decoration: none;
             display: flex;
             align-items: center;
@@ -246,18 +246,8 @@
                 <span>个人照片</span>
             </div>
             <h1>陈争光 教授</h1>
-            <!--<div class="title">博士，硕士研究生导师</div>-->
             <div class="affiliation">黑龙江八一农垦大学 信息与电气工程学院</div>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <span>📧</span>
-                    <span> ruzee@sina.com</span>
-                </div>
-                <div class="contact-item">
-                    <span>📞</span>
-                    <span>0459-6819313</span>
-                </div>
-            </div>
+
             <div class="profile-links">
                 <a href="https://webofscience.clarivate.cn/wos/author/record/KWT-8203-2024" class="profile-link" target="_blank">WOS</a>
                 <a href="https://orcid.org/0000-0002-6791-4240" class="profile-link" target="_blank">ORCID</a>
@@ -304,6 +294,12 @@
                 <h2>学术成果</h2>
                 <h3>代表性论文（近5年）</h3>
                 <ul class="publication-list">
+                    <li class="publication-item">
+                        <div class="publication-title">[44](2025)Application of an ECAM-ConvNeXt Model With Multichannel Spectrogram Based on Vis–NIR for Soil Property Prediction</div>
+                        <div class="publication-authors">Qinghao Shuai, Zhengguang Chen*, Shuo Liu, Quan Wang</div>
+                        <div class="publication-journal">Journal of Chemometrics 39, no. 12 (2025): e70092, https://doi.org/10.1002/cem.70092(EI/SCI 四区,IF=2.1)</div>
+                    </li>
+                    
                     <li class="publication-item">
                         <div class="publication-title">[43](2025)基于近红外光谱技术的稀疏高斯过程回归模型在大豆种子发芽率预测中的应用</div>
                         <div class="publication-authors">陈雯,陈争光*,刘金明,王河</div>
@@ -729,25 +725,41 @@
             </div>
 
 
-<div class="content-section" id="others">
- <h2>其他</h2>
- <p>课题组有前期积累，在NIR研究领域具有一定基础优势</p>
- <p>所有论文学生本人一作，为就业/读博做准备</p>
- <p>除周会之外的随时随地的学术探讨</p>
- <p>每年3+X次非学术活动</p>
- <p>成果嘉奖，鼓励创新</p>
- <p>CET-6过级奖励</p>
- <p>千金贺婚礼</p>
-</div>
+            <div class="content-section" id="others">
+             <h2>其他</h2>
+             <p>课题组有前期积累，在NIR研究领域具有一定基础优势</p>
+             <p>所有论文学生本人一作，为就业/读博做准备</p>
+             <p>除周会之外的随时随地的学术探讨</p>
+             <p>每年3+X次非学术活动</p>
+             <p>成果嘉奖，鼓励创新</p>
+             <p>CET-6过级奖励</p>
+             <p>千金贺婚礼</p>
+            </div>
 
 
         </div>
         
         <footer>
-            <p>© 2025 陈争光教授个人主页 | 最后更新：2025年11月11日 </p>
+            <div class="contact-info">
+                <div>© 2025 陈争光教授个人主页 | 最后更新：2025年11月11日</div>
+                <div class="contact-item" id="email">
+                    <span>📧</span>
+                    <span> ruzee@sina.com</span>
+                </div>
+                <div class="contact-item" id="phone">
+                    <span>📞</span>
+                    <span>0459-6819313</span>
+                </div>
+            </div>
         </footer>
     </div>
-
+    <script>
+        // 简单加密的联系信息
+        const email = 'cnV6ZWVAc2luYS5jb20NCg==';
+        const phone= 'MDQ1OS02ODE5MzEz';
+        document.getElementById('email').textContent = atob(email);
+        document.getElementById('phone').textContent = atob(phone);
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const tabs = document.querySelectorAll('.tab');
