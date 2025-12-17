@@ -4,239 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>陈争光教授 - 个人学术主页</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', 'Microsoft YaHei', 'sans-serif';
-        }
-        
-        body {
-            background-color: #f5f7fa;
-            color: #333;
-            line-height: 1.6;
-            padding: 20px 0;
-        }
-        
-        .container {
-            width: 1024px;
-            margin: 0 auto;
-            background-color: white;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #1a6fc4, #0d4d8d);
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 5px solid rgba(255, 255, 255, 0.3);
-            margin: 0 auto 20px;
-            overflow: hidden;
-            background-color: #e0e0e0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #888;
-        }
-        
-        h1 {
-            font-size: 20px;
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
-        
-        .title {
-            font-size: 20px;
-            margin-bottom: 15px;
-            opacity: 0.9;
-        }
-        
-        .affiliation {
-            font-size: 18px;
-            margin-bottom: 10px;
-            opacity: 0.8;
-        }
-        
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 5px;
-            flex-wrap: wrap;
-        }
-        
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        
-        .tabs-container {
-            background-color: #f0f4f8;
-            padding: 0 40px;
-        }
-        
-        .tabs {
-            display: flex;
-            list-style: none;
-            border-bottom: 1px solid #d0d7e2;
-        }
-        
-        .tab {
-            padding: 15px 25px;
-            cursor: pointer;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            position: relative;
-        }
-        
-        .tab.active {
-            color: #1a6fc4;
-            background-color: white;
-            border-radius: 5px 5px 0 0;
-            border: 1px solid #d0d7e2;
-            border-bottom: none;
-        }
-        
-        .tab:hover:not(.active) {
-            background-color: rgba(255, 255, 255, 0.7);
-        }
-        
-        .tab-content {
-            padding: 40px;
-            min-height: 400px;
-        }
-        
-        .content-section {
-            display: none;
-            animation: fadeIn 0.5s ease;
-        }
-        
-        .content-section.active {
-            display: block;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        
-        h2 {
-            color: #1a6fc4;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #eaeef5;
-            font-size: 24px;
-        }
-        
-        h3 {
-            color: #2c3e50;
-            margin: 25px 0 15px;
-            font-size: 20px;
-        }
-        
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-        
-        .publication-list, .project-list, .student-list {
-            list-style: none;
-        }
-        
-        .publication-item, .project-item, .student-item {
-            padding: 15px;
-            margin-bottom: 15px;
-            background-color: #f9fbfd;
-            border-left: 4px solid #1a6fc4;
-            border-radius: 0 4px 4px 0;
-            transition: transform 0.2s ease;
-        }
-        
-        .publication-item:hover, .project-item:hover, .student-item:hover {
-            transform: translateX(5px);
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-        }
-        
-        .publication-title {
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: #2c3e50;
-        }
-        
-        .publication-authors, .project-desc, .student-info {
-            color: #555;
-            margin-bottom: 5px;
-        }
-        
-        .publication-journal, .project-period, .student-period {
-            color: #777;
-            font-style: italic;
-        }
-        
-        .profile-links {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 10px;
-            flex-wrap: wrap;
-        }
-        
-        .profile-link {
-            color: #aaefc4;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            transition: color 0.3s;
-        }
-        
-        .profile-link:hover {
-            color: #0d4d8d;
-            text-decoration: underline;
-        }
-        
-        footer {
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            text-align: center;
-            padding: 20px;
-            font-size: 14px;
-        }
-        
-        @media (max-width: 1100px) {
-            .container {
-                width: 95%;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .tabs {
-                flex-wrap: wrap;
-            }
-            
-            .tab {
-                flex: 1 0 50%;
-                text-align: center;
-            }
-            
-            .contact-info, .profile-links {
-                flex-direction: column;
-                align-items: center;
-                gap: 10px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="container">
@@ -294,189 +62,196 @@
                 <h2>学术成果</h2>
                 <h3>代表性论文（近5年）</h3>
                 <ul class="publication-list">
+
+                    <li class="publication-item">
+                        <div class="publication-title">[45](2025) Application of K-means ant colony optimization wavelength selection method combining similarity measures for soybean crude fat content detection</div>
+                        <div class="publication-authors">Xi-Yao Feng, <b>Zheng-Guang Chen*</b>, Jin-Ming Liu, Peng-Hui Wang</div>
+                        <div class="publication-journal">JFood Chemistry, 2025, 147614,ISSN 0308-8146, https://doi.org/10.1016/j.foodchem.2025.147614 (SCI一区,IF=9.8)</div>
+                    </li>
+
                     <li class="publication-item">
                         <div class="publication-title">[44](2025)Application of an ECAM-ConvNeXt Model With Multichannel Spectrogram Based on Vis–NIR for Soil Property Prediction</div>
-                        <div class="publication-authors">Qinghao Shuai, Zhengguang Chen*, Shuo Liu, Quan Wang</div>
+                        <div class="publication-authors">Qinghao Shuai, <b>Zhengguang Chen*</b>, Shuo Liu, Quan Wang</div>
                         <div class="publication-journal">Journal of Chemometrics 39, no. 12 (2025): e70092, https://doi.org/10.1002/cem.70092(EI/SCI 四区,IF=2.1)</div>
                     </li>
                     
                     <li class="publication-item">
                         <div class="publication-title">[43](2025)基于近红外光谱技术的稀疏高斯过程回归模型在大豆种子发芽率预测中的应用</div>
-                        <div class="publication-authors">陈雯,陈争光*,刘金明,王河</div>
+                        <div class="publication-authors">陈雯,<b>陈争光*</b>,刘金明,王河</div>
                         <div class="publication-journal">分析测试学报, 2025, 44(10): 2079-2086 (CSCD&中文核心)</div>
                     </li>
                     <li class="publication-item">
                         <div class="publication-title">[42](2025)Rapid detection of maize seed germination using near-infrared spectroscopy combined with Gaussian process regression</div>
-                        <div class="publication-authors">Xiao Han, Chen Zhengguang*, Liu Jinming</div>
+                        <div class="publication-authors">Xiao Han, <b>Chen Zhengguang*</b>, Liu Jinming</div>
                         <div class="publication-journal">Food Chemistry, 2025, Volume 491, 145254 (SCI, IF=9.8)</div>
                     </li>
                     <li class="publication-item">
                         <div class="publication-title">[41](2025)Outlier Identification Method Based on Multi-Model Weighted Consensus in Conjunction With Monte Carlo Cross-Validation</div>
-                        <div class="publication-authors">Yujing Wang, Zhengguang Chen*, Jinming Liu, He Wang</div>
+                        <div class="publication-authors">Yujing Wang, <b>Zhengguang Chen*</b>, Jinming Liu, He Wang</div>
                         <div class="publication-journal">Journal of AOAC INTERNATIONAL, 2025, Volume 108, Issue 6, Pages 818-827 (SCI, IF=1.7/EI)</div>
                     </li>
                     <li class="publication-item">
                         <div class="publication-title">[40](2025)Outlier detection method based on multi-model consensus</div>
-                        <div class="publication-authors">Yujing Wang, Zhengguang Chen*, Shuo Liu, Jinming Liu & Quan Wang</div>
+                        <div class="publication-authors">Yujing Wang, <b>Zhengguang Chen*</b>, Shuo Liu, Jinming Liu & Quan Wang</div>
                         <div class="publication-journal">Spectroscopy Letters, 2025, 58:6, 592-605 (SCI, IF=1.6/EI)</div>
                     </li>
                     <li class="publication-item">
                         <div class="publication-title">[39](2025)Research on rapid non-destructive detection of tannin and protein content in sorghum based on multi-output Gaussian process</div>
-                        <div class="publication-authors">Jin-Yi Zhao, Zheng-Guang Chen*, Shuo Liu, Jin-Ming Liu, Peng-Hui Wang</div>
+                        <div class="publication-authors">Jin-Yi Zhao, <b>Zheng-Guang Chen*</b>, Shuo Liu, Jin-Ming Liu, Peng-Hui Wang</div>
                         <div class="publication-journal">Journal of Food Composition and Analysis, 2025, Volume 141, 107326 (SCI, IF=4.6)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[38](2025)Wavelength selection method for near-infrared spectroscopy based on the combination of mutual information and genetic algorithm</div>
-                        <div class="publication-authors">Xiao-Hui Ma, Zheng-Guang Chen*, Shuo Liu, Jin-Ming Liu, Xue-song Tian</div>
+                        <div class="publication-authors">Xiao-Hui Ma, <b>Zheng-Guang Chen*</b>, Shuo Liu, Jin-Ming Liu, Xue-song Tian</div>
                         <div class="publication-journal">Talanta, Volume 286, 1 May 2025, 127573, ISSN: 1873-3573, https://doi.org/10.1016/j.talanta.2025.127573 (SCI一区, IF=6.1)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[37](2025)Wavelength selection method for near-infrared spectroscopy based on the combination of mutual information and genetic algorithm</div>
-                        <div class="publication-authors">Xi-Yao Feng, Zheng-Guang Chen*, Shu-Juan Yi, Peng-Hui Wang</div>
+                        <div class="publication-authors">Xi-Yao Feng, <b>Zheng-Guang Chen*</b>, Shu-Juan Yi, Peng-Hui Wang</div>
                         <div class="publication-journal">Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Volume 324, 5 January 2025, 125029, ISSN 1386-1425, https://doi.org/10.1016/j.saa.2024.125029 . (SCI二区,IF=4.6)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[36](2024) Near-infrared spectral expansion method based on active semi-supervised regression</div>
-                        <div class="publication-authors">Yican Huang, Zhengguang Chen*, Jinming Liu</div>
+                        <div class="publication-authors">Yican Huang, <b>Zhengguang Chen*></b>, Jinming Liu</div>
                         <div class="publication-journal">Analytica Chimica Acta, Volume 1317, 15 August 2024, 342890, https://doi.org/10.1016/j.aca.2024.342890  (SCI二区,IF=6.2)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[35](2024) Rapid Detection of Sorghum Tannin Content Based on Near-Infrared Spectroscopy and Gaussian Process</div>
-                        <div class="publication-authors">ZHAO Jin-Yi ,CHEN Zheng-Guang* ,YI Shu-Juan</div>
+                        <div class="publication-authors">ZHAO Jin-Yi ,<b>CHEN Zheng-Guang*></b> ,YI Shu-Juan</div>
                         <div class="publication-journal">分析化学(CHINESE JOURNAL OF ANALYTICAL CHEMITRY),2024.7 DOI : https://link.cnki.net/doi/10.19756/j.issn.0253-3820.231441 (SCI三区,IF=1.2)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[34](2024) Wavelength selection method for near-infrared spectroscopy based on Max-Relevance Min-Redundancy</div>
-                        <div class="publication-authors">Xiao-Hui Ma, Zheng-Guang Chen*, Jin-Ming Liu</div>
+                        <div class="publication-authors">Xiao-Hui Ma, <b>Zheng-Guang Chen*</b>, Jin-Ming Liu</div>
                         <div class="publication-journal">Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, 22 January,2024,123933, https://doi.org/10.1016/j.saa.2024.123933  (SCI二区,IF=4.3)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[33](2023)Limited agricultural spectral dataset expansion based on generative adversarial networks</div>
-                        <div class="publication-authors">Yican Huang, Zhengguang Chen*, Jinming Liu</div>
+                        <div class="publication-authors">Yican Huang, <b>Zhengguang Chen*</b>, Jinming Liu</div>
                         <div class="publication-journal">Computers and Electronics in Agriculture, Volume 215, December 2023,108385, https://doi.org/10.1016/j.compag.2023.108385 (SCI一区 IF=8.3)</div>
                     </li>
 
 
                     <li class="publication-item">
                         <div class="publication-title">[32](2023)Application of improved stacking ensemble learning in NIR spectralmodeling of corn seed germination rate</div>
-                        <div class="publication-authors">Xiaojin Hao, Zhengguang Chen*, Shujuan Yi, Jinming Liu</div>
+                        <div class="publication-authors">Xiaojin Hao, <b>Zhengguang Chen*</b>, Shujuan Yi, Jinming Liu</div>
                         <div class="publication-journal">Chemometrics and Intelligent Laboratory Systems, https://doi.org/10.1016/j.chemolab.2023.105020 , Vol-ume 243, 15 December 2023, 105020 (SCI 二区IF=4.175)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[31](2023)Rapid Detection of Maize Seed Germination Rate Based on Gaussian Process Regression with Selection Kernel Function</div>
-                        <div class="publication-authors">Han Xiao, Zhengguang Chen*, Shujuan Yi, Jinming Liu</div>
+                        <div class="publication-authors">Han Xiao, <b>Zhengguang Chen*</b>, Shujuan Yi, Jinming Liu</div>
                         <div class="publication-journal">Vibrational Spectroscopy  Volume 129, November 2023 103595 ,https://doi.org/10.1016/j.vibspec.2023.103595 (SCI三区 IF=2.5)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[30](2023)Rapid detection of lignin content in corn straw based on Laplacian Eigenmaps</div>
-                        <div class="publication-authors">Xiao-Wen Zhang, Zheng-Guang Chen*, Shu-Juan Yi, Jin-Ming Liu</div>
+                        <div class="publication-authors">Xiao-Wen Zhang, <b>Zheng-Guang Chen*</b>, Shu-Juan Yi, Jin-Ming Liu</div>
                         <div class="publication-journal">Infrared Physics & Technology, Volume 133, September 2023, 104787 https://doi.org/10.1016/j.infrared.2023.104787 (SCI 二区 IF=2.999)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[29](2023)Application of the Combination Method Based on RF and LE in Near Infrared Spectral Modeling</div>
-                        <div class="publication-authors">GuoJun Shi, XiaoWen Zhang, Ge Qu, and ZhengGuang Chen*</div>
+                        <div class="publication-authors">GuoJun Shi, XiaoWen Zhang, Ge Qu, and <b>ZhengGuang Chen*</b></div>
                         <div class="publication-journal">ACS Omega 2022, 7, 50, 46623–46628. Dec 8,2022. https://doi.org/10.1021/acsomega.2c05561 . (SCI三区 IF=4.132)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[28](2023)Classification of Rice Varieties Using SIMCA Applied to NIR Spectroscopic Data</div>
-                        <div class="publication-authors">Zhang XiaoWen, Chen Zhengguang*</div>
+                        <div class="publication-authors">Zhang XiaoWen, <b>Chen Zhengguang*</b></div>
                         <div class="publication-journal">Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy. https://doi.org/10.1016/j.saa.2022.122247  Volume 289, 15 March 2023, 122247  (SCI二区 IF=4.831)</div>
                     </li>
 
 
                     <li class="publication-item">
                         <div class="publication-title">[27](2023)Detection of Maize Seed Germination Rate Based on Improved Locally Linear Embedding</div>
-                        <div class="publication-authors">Shu Liu, Zheng-Guang Chen*</div>
+                        <div class="publication-authors">Shu Liu, <b>Zheng-Guang Chen*</b></div>
                         <div class="publication-journal">Computer and Electronics in agriculture. Volume 204, January 2023, 107514 https://doi.org/10.1016/j.compag.2022.107514 （SCI一区 IF=6.757）</div>
                     </li>
 
 
                     <li class="publication-item">
                         <div class="publication-title">[26](2023)基于深度学习与近红外光谱的土壤质地分类模型研究</div>
-                        <div class="publication-authors">魏锦山,陈争光*</div>
+                        <div class="publication-authors">魏锦山,<b>陈争光*</b></div>
                         <div class="publication-journal">现代农业研究,2023,29(01):8-13. https://link.cnki.net/doi/10.19704/j.cnki.xdnyyj.2023.01.024 </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[25](2023)两阶段相关系数波长选择方法</div>
-                        <div class="publication-authors">万岩,陈争光*</div>
+                        <div class="publication-authors">万岩,<b>陈争光*</b></div>
                         <div class="publication-journal">分析试验室 https://link.cnki.net/doi/10.13595/j.cnki.issn1000-0720.2022.082004 2023.42(10) (EI检索)</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[24](2023)基于不同卷积尺度融合与近红外光谱的土壤分类模型研究</div>
-                        <div class="publication-authors">魏锦山,陈争光*</div>
+                        <div class="publication-authors">魏锦山,<b>陈争光*</b></div>
                         <div class="publication-journal">https://link.cnki.net/doi/10.3964/j.issn.1000-0593(2023)02-0460-08  (SCI三区 IF=0.609) 2023-02-15</div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title"> [23] (2023)基于Stacking 集成学习的油页岩含油率预测</div>
-                        <div class="publication-authors"> 李泉伦,陈争光* </div>
+                        <div class="publication-authors"> 李泉伦,<b>陈争光*</b> </div>
                         <div class="publication-journal">光谱学与光谱分析(Spectroscopy and Spectral Analysis).2023.4.15 .https://www.gpxygpfx.com/CN/10.3964/j.issn.1000-0593(2023)04-1037-06 (SCI三区 IF=0.609)
    </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[22](2023)Application of adaptive Laplacian Eigenmaps in near infrared spectral modeling    </div>
-                        <div class="publication-authors">Xiao-Wen Zhang, Zheng-Guang Chen*, Feng Jiao  </div>
+                        <div class="publication-authors">Xiao-Wen Zhang, <b>Zheng-Guang Chen*</b>, Feng Jiao  </div>
                         <div class="publication-journal">Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Volume 282, 5 December 2022, 121630, ISSN 1386-1425, https://doi.org/10.1016/j.saa.2022.121630. (SCI二区 IF=4.831)   </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[21] (2023)近红外光谱的油页岩总有机碳快速检测  </div>
-                        <div class="publication-authors"> 李泉伦,陈争光*,孙先达.</div>
+                        <div class="publication-authors"> 李泉伦,<b>陈争光*</b>,孙先达.</div>
                         <div class="publication-journal">光谱学与光谱分析,2022,42(06):1691-1697. https://link.cnki.net/doi/10.3964/j.issn.1000-0593(2022)06-1691-07 (SCI三区 IF=0.609) 2023-04-15   </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title"> [20](2022) 基于贝叶斯优化的SVM玉米品种鉴别研究 </div>
-                        <div class="publication-authors">  冯瑞杰,陈争光*,衣淑娟</div>
+                        <div class="publication-authors">  冯瑞杰,<b>陈争光*</b>,衣淑娟</div>
                         <div class="publication-journal">光谱学与光谱分析,2022,42(06):1698-1703. https://link.cnki.net/doi/10.3964/j.issn.1000-0593(2022)06-1698-06 (SCI三区 IF=0.609) 2022-06-07  </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[19](2022) 最小相关系数的多元校正波长选择算法  </div>
-                        <div class="publication-authors">程介虹,陈争光*,衣淑娟  </div>
+                        <div class="publication-authors">程介虹,<b>陈争光*</b>,衣淑娟  </div>
                         <div class="publication-journal">光谱学与光谱分析,2022,42(03):719-725. https://link.cnki.net/doi/10.3964/j.issn.1000-0593(2022)03-0719-07  (SCI三区 IF=0.609) 2022-03-09   </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[18](2022)  Rapid identification of the variety of maize seeds based on near-infrared spectroscopy coupled with locally linear embedding </div>
-                        <div class="publication-authors">Shu Liu, Zheng-Guang Chen*,Feng Jiao, </div>
+                        <div class="publication-authors">Shu Liu, <b>Zheng-Guang Chen*</b>,Feng Jiao, </div>
                         <div class="publication-journal">Applied Optics,2022,61(7). https://doi.org/10.1364/AO.449499. (SCI三区 IF=1.905) </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[17] (2021)基于迭代保留信息变量和连续投影的近红外光谱波长选择方法  </div>
-                        <div class="publication-authors">程介虹,陈争光*</div>
+                        <div class="publication-authors">程介虹,<b>陈争光*</b></div>
                         <div class="publication-journal"> 分析化学, 2021, 49(8): 1402-1409. https://link.cnki.net/doi/10.19756/j.issn.0253-3820.201307 (SCI三区 IF=1.193)  </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[16](2021) 基于高光谱数据的乳香产地快速鉴别  </div>
-                        <div class="publication-authors">程介虹,陈争光*</div>
+                        <div class="publication-authors">程介虹,<b>陈争光*</b></div>
                         <div class="publication-journal">黑龙江八一农垦大学学报，2021 2021,33(04):93-98. https://link.cnki.net/doi/10.3969/j.issn.1002-2090.2021.04.014    </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[15](2021) 基于卷积神经网络与可见近红外光谱的土壤含氮量检测  </div>
-                        <div class="publication-authors">唐永生,陈争光*</div>
+                        <div class="publication-authors">唐永生,<b>陈争光*</b></div>
                         <div class="publication-journal">黑龙江八一农垦大学学报, 2021,33(03):93-99. https://link.cnki.net/doi/10.3969/j.issn.1002-2090.2021.03.015    </div>
                     </li>
 
                     <li class="publication-item">
                         <div class="publication-title">[14](2021) 卷积神经网络和近红外光谱的土壤pH值预测  </div>
-                        <div class="publication-authors"> 唐永生,陈争光*</div>
+                        <div class="publication-authors"> 唐永生,<b>陈争光*</b></div>
                         <div class="publication-journal">光谱学与光谱分析,2021,41(03):892-897.(SCI IF=0.609) https://www.gpxygpfx.com/CN/10.3964/j.issn.1000-0593(2021)03-0892-06  </div>
                     </li>
 
