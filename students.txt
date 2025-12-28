@@ -1,0 +1,54 @@
+                    <li class="student-item">
+                        <div class="publication-title">2025级 (4+1人)</div>
+                        <div class="student-info">代会存-农业工程与信息技术，胡松家-电子信息（兼），罗世杰-电子信息，彭新月-电子信息，何越-电子信息</div>
+                    </li>
+                    <li class="student-item">
+                        <div class="publication-title">2024级 (2人)</div>
+                        <div class="student-info">陈雯-农业工程与信息技术，袁金超-电子信息</div>
+                    </li>
+                    <li class="student-item">
+                        <div class="publication-title">2023级 (3人)</div>
+                        <div class="student-info">冯曦瑶-电子信息，苏铁龙-电子信息，帅庆豪-电子信息</div>
+                    </li>
+                    <li class="student-item">
+                        <div class="publication-title">2022级 (3人)</div>
+                        <div class="student-info">马晓慧-电子信息（国家奖学金，黑龙江省优秀毕业生），王禹婧-电子信息，赵瑾熠-农业工程与信息技术</div>
+                    </li>
+                    <li class="student-item">
+                        <div class="publication-title">2021级 (3人)</div>
+                        <div class="student-info">郝晓瑾-电子信息，肖涵-农业工程与信息技术，黄义灿-电子信息（校优秀毕业论文）</div>
+                    </li>
+                    <li class="student-item">
+                        <div class="publication-title">2020级 (3人)</div>
+                        <div class="student-info">万岩-农业工程与信息技术，刘姝-电子信息（第一个发表SCI一区论文学生，第一个发表英文SCI论文的学生），张晓文-电子信息（第一个发表4篇SCI论文的学生）</div>
+                    </li>
+                    <li class="student-item">
+                        <div class="publication-title">2019级 (3人)</div>
+                        <div class="student-info">李泉伦-计算机技术，魏锦山-计算机技术（第一个校优秀毕业论文），冯瑞杰-计算机技术</div>
+                    </li>
+
+                    <li class="student-item">
+                        <div class="publication-title">2018级 (2人)</div>
+                        <div class="student-info">程介虹-农电（国家奖学金，校优秀毕业生，第一个以6篇论文（含3篇SCI）和1个发明专利毕业的学生），唐永生-计算机技术（第一个成功申请研创项目学生）</div>
+                    <li class="student-item">
+                        <div class="publication-title">2017级 (2人)</div>
+                        <div class="student-info">谢欢-计算机技术（第一个以2篇SCI论文毕业的学生），赵文杰-农业信息化</div>
+                    </li>
+
+                    <li class="student-item">
+                        <div class="publication-title">2016级 (1人)</div>
+                        <div class="student-info">曲歌-农业信息化</div>
+                    </li>
+
+                    <li class="student-item">
+                        <div class="publication-title">2015级 (1人)</div>
+                        <div class="student-info">张淮栋-农业信息化，裘萍(在职)-农业信息化</div>
+                    </li>
+                    <li class="student-item">
+                        <div class="publication-title">2014级 (1人)</div>
+                        <div class="student-info">高艳琪-农业信息化，穆彩珠(在职)-农业信息化，胡国平(在职)-农业信息化，霍宏(在职)-农业信息化</div>
+                    </li>
+                   <li class="student-item">
+                        <div class="publication-title">2013级 (1+1人)</div>
+                        <div class="student-info">李鑫-农业信息化（第一个发表SCI论文的学生），刘超-农业信息化（兼）</div>
+                    </li>
