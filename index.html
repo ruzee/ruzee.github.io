@@ -495,7 +495,7 @@
         // 将培养学生块单独放在students.txt文件中
         async function loadExternalContent() {
             try {
-                const response = await fetch('./students.txt');
+                const response = await fetch('./students.html');
                 if (!response.ok) throw new Error('Network response was not ok');
                 const content = await response.text();
                 document.getElementById('students-list').innerHTML = content;
